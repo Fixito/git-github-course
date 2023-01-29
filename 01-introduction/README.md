@@ -111,3 +111,5 @@ Un commit atomique est un commit qui inclut des modifications liées à une seul
 - Si quelque chose que nous modifions s'avère causer des problèmes, il est facile d'annuler la modification spécifique sans perdre les autres modifications.
 
 - Cela vous permet d'écrire de meilleurs messages de validation.
+
+[S'entrainer](https://learngitbranching.js.org/?locale=fr_FR)
