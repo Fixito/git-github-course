@@ -18,9 +18,9 @@ Pour plus d'info sur le changement de `master` à `main` voir [renommage de repo
 
 Cela nous redirige vers la page du repo sur GitHib.
 
-4. Pour cloner le repo, cliquer sur le bouton vert `Code`, sélectionner l'option `HTTPS`ry copier le lien en-dessous.
+4. Pour cloner le repo, cliquer sur le bouton vert `Code`, sélectionner l'option `HTTPS` puis copier le lien en-dessous.
 
-Nous allons maintent utiliser le terminal.
+Nous allons maintenant utiliser le terminal.
 
 5. Créer un nouveau dossier `repos` avec la commande `mkdir`
 
@@ -40,9 +40,9 @@ On peut remarquer le mot `origin` au début qui est le nom de la connexion à di
 
 ## Utiliser le workflow Git
 
-1. Créer une nouveau fichier dans le dossier `git-test`et l'appeler `hello-world.txt` avec la commande `touch hello-world.txt`.
+1. Créer une nouveau fichier dans le dossier `git-test` et l'appeler `hello-world.txt` avec la commande `touch hello-world.txt`.
 
-2. Taper `git status` dans le terminal. On remarque que le fichier `hello-world.txt`est affcihé en rouge, ce qui signifie que le fichier n'est pas staged ("mis en scène")
+2. Taper `git status` dans le terminal. On remarque que le fichier `hello-world.txt` est affiché en rouge, ce qui signifie que le fichier n'est pas staged ("mis en scène")
 
 3. Taper `git add hello-world.txt`. Cette commande ajoute le fichier `hello-world.txt` à la zone de staging (préparation) de Git.
 
@@ -64,11 +64,11 @@ Si le terminal est bloqué dans un écran avec (END) en bas, appuyer simplement 
 
 1. Ouvrir `README.md` dans VsCode en utilisant la commande `code README.md`.
 
-2. Ajouter `Bonjour ForEach `! dans `README.md` et enregistrer le fichier avec `Ctrl+S`
+2. Ajouter `Bonjour ForEach !` dans `README.md` et enregistrer le fichier avec `Ctrl + S`
 
-3. Revenir dans le terminal ou ouvrir le terminal intégré de Visual Studio Codee en appuyant sur `Ctrl + ù`. Taper ensuite `git status`.
+3. Revenir dans le terminal ou ouvrir le terminal intégré de Visual Studio Code en appuyant sur `Ctrl + ù`. Taper ensuite `git status`.
 
-On remarque que `README.m`d est maintenant affiché comme `not staged or committed` (non mis en scène ou validé).
+On remarque que `README.md` est maintenant affiché comme `not staged or committed` (non mis en scène ou validé).
 
 4. Ajouter `README.md` à la zone de staging avec `git add README.md`.
 
@@ -92,7 +92,7 @@ git commit -m "Modifie README.md et hello_world.txt"
 
 ## Pousser notre travail sur Github
 
-1. Taper `git push`. Pour être plus précis, taper `git push origin main`.
+1. Taper `git push`. Pour être plus précis, taper `git push -u origin main`.
 
 Si on utilise `git push`, nous devons utiliser la commande `git push --set-upstream origin main` pour associer notre branche locale à `origin` ce qui nous permttra d'économiser quelques frappes puisque nous n'avons pas affaire à une autre branche (autre que `main`) ou à une remote différente (comme `origin` mentionnée plus haut)
 
@@ -100,7 +100,7 @@ Si on utilise `git push`, nous devons utiliser la commande `git push --set-upstr
 
 Il devrait afficher `Your branch is up to date with ‘origin/main’. nothing to commit, working tree clean` (Votre branche est à jour avec" origin/main ". rien à s'engager, arbre de travail propre).
 
-3. Lorsque l'on recharger la page du repository sur GitHub, nous devrions voir les fichiers `README.md` et `hello_world.txt` que nous venons de pousser depuis notre ordinateur local.
+3. Lorsque l'on recharge la page du repository sur GitHub, nous devrions voir les fichiers `README.md` et `hello_world.txt` que nous venons de pousser depuis notre ordinateur local.
 
 [Aide mémoire](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf)
 

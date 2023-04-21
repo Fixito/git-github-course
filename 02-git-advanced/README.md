@@ -68,7 +68,7 @@ Cela nous permettrait de modifier la faute de frappe dans le commit `Create send
 
 - Effectuer des modifications similaires dans l'outil de rebase interactif, mais ne pas copier/coller le code ci-dessus car cela ne fonctionnera pas.
 
--Enregistrer et quitter l'éditeur, ce qui nous permettra d'éditer le commit avec les instructions suivantes :
+- Enregistrer et quitter l'éditeur, ce qui nous permettra d'éditer le commit avec les instructions suivantes :
 
 ```
   You can amend the commit now, with
@@ -161,7 +161,7 @@ Nous pouvons effectuer une brève recherche et trouver la commande `git push --f
 
 Cheh, c'est intéressant, nous ne voyons plus notre quatrième fichier sur notre repo local.
 
-Vérifions notre dépôt GitHub, est-ce que notre fichier test4.md est là ?
+Vérifions notre dépôt GitHub, est-ce que notre fichier `test4.md` est là ?
 
 Non! Nous venons de le détruire, ce qui dans ce scénario est le danger - nous pourrions potentiellement détruire le travail de ceux avec qui nous collaborons ! `git push --force` est une commande **très dangereuse, et elle doit être utilisée avec prudence lors de la collaboration avec d'autres**.
 
